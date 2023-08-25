@@ -1,0 +1,5 @@
+name: rosidl_dynamic_typesupport
+build:
+  kconfig: zephyr/Kconfig
+  cmake: zephyr
+  depends:

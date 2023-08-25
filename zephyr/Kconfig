@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+config ROSIDL_DYNAMIC_TYPESUPPORT
+        bool "Enable ROSIDL_DYNAMIC_TYPESUPPORT library"
+        help
+          This option enables the ROSIDL_DYNAMIC_TYPESUPPORT library
+
+if ROSIDL_DYNAMIC_TYPESUPPORT
+
+endif
+
